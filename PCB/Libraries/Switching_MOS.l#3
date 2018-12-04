@@ -105,20 +105,20 @@
 <wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="8.89" y="12.7" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="8.89" y="10.16" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="S" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="S_1" x="-5.08" y="5.08" length="middle"/>
 <pin name="G" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="D" x="-5.08" y="5.08" length="middle"/>
+<pin name="D_1" x="20.32" y="5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="FDMC86240">
-<wire x1="0" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="12.7" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="10.16" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="S" x="20.32" y="5.08" length="middle" rot="R180"/>
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="17.78" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="15.24" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="S" x="20.32" y="7.62" length="middle" rot="R180"/>
 <pin name="G" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="D" x="-5.08" y="5.08" length="middle"/>
+<pin name="D" x="-5.08" y="7.62" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -130,11 +130,6 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=1277
 </gates>
 <devices>
 <device name="" package="SOP_ADVANCE">
-<connects>
-<connect gate="G$1" pin="D" pad="D D_1 D_2 D_3 D_4"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S_1 S_2 S_3"/>
-</connects>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="MOSFET N-Ch 100V 32A 19ns U-MOS SOP8 Adv Toshiba TPH8R80ANH N-channel MOSFET Transistor, 59 A, 100 V, 8-Pin SOP Advanced" constant="no"/>
