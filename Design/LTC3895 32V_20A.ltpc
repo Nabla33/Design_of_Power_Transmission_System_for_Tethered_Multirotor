@@ -129,9 +129,9 @@
       <RsenseManufacturer>VISHAY</RsenseManufacturer>
       <RsenseFilterR>10</RsenseFilterR>
       <RsenseFilterC>1E-09</RsenseFilterC>
-      <SenseC>4.7E-08</SenseC>
-      <SenseRp>51000</SenseRp>
-      <SenseRs>37000</SenseRs>
+      <SenseC>1E-08</SenseC>
+      <SenseRp>10000000</SenseRp>
+      <SenseRs>280000</SenseRs>
       <Vforward>0.5</Vforward>
       <NumOfSchottky>1</NumOfSchottky>
       <SwitchingFreqDesired>855000</SwitchingFreqDesired>
@@ -200,7 +200,6 @@
       <LengthSyncStage1>5.2</LengthSyncStage1>
       <WidthSyncStage1>6.3</WidthSyncStage1>
       <HeightSyncStage1>1</HeightSyncStage1>
-      <PackageSyncStage1>SOP Advance</PackageSyncStage1>
       <NumFetsControlStage2>1</NumFetsControlStage2>
       <RdsonControlStage2>NaN</RdsonControlStage2>
       <NumFetsSyncStage2>1</NumFetsSyncStage2>
@@ -208,7 +207,7 @@
       <OutputLCFilterEnabled>false</OutputLCFilterEnabled>
       <OutputLCFilterSensingIsLocal>false</OutputLCFilterSensingIsLocal>
       <OutputLCFilterSensingIsRemote>false</OutputLCFilterSensingIsRemote>
-      <Efficiency>0.9638</Efficiency>
+      <Efficiency>0.9605</Efficiency>
       <VoutRipplePercent>0.0059620684</VoutRipplePercent>
       <LossCurveA2>0.0346059938</LossCurveA2>
       <LossCurveA1>0.2088937549</LossCurveA1>
