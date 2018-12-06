@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -63,23 +63,35 @@
 <package name="SOP_ADVANCE">
 <description>&lt;b&gt;SOP ADVANCE&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="S_1" x="-1.905" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
-<smd name="S_2" x="-0.635" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
-<smd name="S_3" x="0.635" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
-<smd name="G" x="1.905" y="-2.75" dx="1.45" dy="0.85" layer="1" rot="R90"/>
-<smd name="D_1" x="1.925" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
-<smd name="D_2" x="0.635" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
-<smd name="D_3" x="-0.635" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
-<smd name="D_4" x="-1.925" y="2.95" dx="1.05" dy="0.85" layer="1" rot="R90"/>
-<smd name="D" x="0" y="0.55" dx="4.7" dy="3.75" layer="1"/>
-<text x="-3.448" y="-0.022" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.2" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.2" layer="51"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.2" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.2" layer="21"/>
-<circle x="-1.953" y="-3.884" radius="0.0422" width="0.2" layer="25"/>
+<smd name="S_1" x="-0.03" y="-2.045" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="S_2" x="1.24" y="-2.045" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="S_3" x="2.51" y="-2.045" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="G" x="3.78" y="-2.045" dx="1.45" dy="0.85" layer="1" rot="R90"/>
+<smd name="D_1" x="3.8" y="3.655" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="D_2" x="2.51" y="3.655" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="D_3" x="1.24" y="3.655" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="D_4" x="-0.05" y="3.655" dx="1.05" dy="0.85" layer="1" rot="R90"/>
+<smd name="D" x="1.875" y="1.255" dx="4.7" dy="3.75" layer="1"/>
+<text x="-1.573" y="0.683" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
+<wire x1="-0.625" y1="3.205" x2="4.375" y2="3.205" width="0.2" layer="51"/>
+<wire x1="4.375" y1="3.205" x2="4.375" y2="-1.795" width="0.2" layer="51"/>
+<wire x1="4.375" y1="-1.795" x2="-0.625" y2="-1.795" width="0.2" layer="51"/>
+<wire x1="-0.625" y1="-1.795" x2="-0.625" y2="3.205" width="0.2" layer="51"/>
+<wire x1="-0.625" y1="3.205" x2="-0.625" y2="-1.795" width="0.2" layer="21"/>
+<wire x1="4.375" y1="-1.795" x2="4.375" y2="3.205" width="0.2" layer="21"/>
+<circle x="-0.078" y="-3.179" radius="0.0422" width="0.2" layer="25"/>
+<pad name="PWR_PAD1" x="0" y="0" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD2" x="0" y="1.25" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD3" x="0" y="2.5" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD4" x="1.25" y="0" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD5" x="1.25" y="1.25" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD6" x="1.25" y="2.5" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD7" x="2.5" y="0" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD8" x="2.5" y="1.25" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD9" x="2.5" y="2.5" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD10" x="3.75" y="0" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD11" x="3.75" y="1.25" drill="0.6" diameter="1.25" shape="square"/>
+<pad name="PWR_PAD12" x="3.75" y="2.5" drill="0.6" diameter="1.25" shape="square"/>
 </package>
 <package name="8-MLP/POWERWFDN">
 <smd name="S_1" x="-0.975" y="-1.05" dx="0.42" dy="0.7" layer="1"/>
@@ -131,7 +143,7 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=1277
 <devices>
 <device name="" package="SOP_ADVANCE">
 <connects>
-<connect gate="G$1" pin="D" pad="D D_1 D_2 D_3 D_4"/>
+<connect gate="G$1" pin="D" pad="D D_1 D_2 D_3 D_4 PWR_PAD1 PWR_PAD2 PWR_PAD3 PWR_PAD4 PWR_PAD5 PWR_PAD6 PWR_PAD7 PWR_PAD8 PWR_PAD9 PWR_PAD10 PWR_PAD11 PWR_PAD12"/>
 <connect gate="G$1" pin="G" pad="G"/>
 <connect gate="G$1" pin="S" pad="S_1 S_2 S_3"/>
 </connects>
