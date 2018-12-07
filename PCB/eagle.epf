@@ -408,5 +408,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3840 1252"
 Window="Win_1"
