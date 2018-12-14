@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
@@ -118,24 +118,21 @@ Exposed Pad Variation AB &lt;br/&gt;</description>
 <smd name="37" x="0.85" y="5.025" dx="1.05" dy="0.315" layer="1" rot="R90"/>
 <smd name="38" x="0.35" y="5.025" dx="1.05" dy="0.315" layer="1" rot="R90"/>
 <circle x="0.64" y="0.57" radius="0.316225" width="0.127" layer="21"/>
-<pad name="PWR_PAD1" x="2.975" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD2" x="2.975" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD3" x="2.975" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD4" x="3.725" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD5" x="3.725" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD6" x="3.725" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD7" x="4.475" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD8" x="4.475" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD9" x="4.475" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD10" x="5.225" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD11" x="5.225" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD12" x="5.225" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD13" x="5.975" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD14" x="5.975" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD15" x="5.975" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD16" x="6.725" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD17" x="6.725" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
-<pad name="PWR_PAD18" x="6.725" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD1" x="3.075" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD2" x="3.075" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD3" x="3.075" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD4" x="4.025" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD5" x="4.025" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD6" x="4.025" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD7" x="4.875" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD8" x="4.875" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD9" x="4.875" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD10" x="5.725" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD11" x="5.725" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD12" x="5.725" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD13" x="6.675" y="1.3" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD14" x="6.675" y="2.25" drill="0.6" diameter="0.75" shape="square" stop="no"/>
+<pad name="PWR_PAD15" x="6.675" y="3.2" drill="0.6" diameter="0.75" shape="square" stop="no"/>
 <smd name="39_B" x="4.85" y="2.25" dx="4.75" dy="2.74" layer="16"/>
 </package>
 <package name="SOP50P640X120-38" urn="urn:adsk.eagle:footprint:7282529/1">
@@ -254,7 +251,7 @@ Exposed Pad Variation AB &lt;br/&gt;</description>
 <connect gate="G$1" pin="DRVUV" pad="19"/>
 <connect gate="G$1" pin="EXTVCC" pad="32"/>
 <connect gate="G$1" pin="FREQ" pad="17"/>
-<connect gate="G$1" pin="GND" pad="9 12 15 39 PWR_PAD1 PWR_PAD2 PWR_PAD3 PWR_PAD4 PWR_PAD5 PWR_PAD6 PWR_PAD7 PWR_PAD8 PWR_PAD9 PWR_PAD10 PWR_PAD11 PWR_PAD12 PWR_PAD13 PWR_PAD14 PWR_PAD15 PWR_PAD16 PWR_PAD17 PWR_PAD18"/>
+<connect gate="G$1" pin="GND" pad="9 12 15 39 39_B PWR_PAD1 PWR_PAD2 PWR_PAD3 PWR_PAD4 PWR_PAD5 PWR_PAD6 PWR_PAD7 PWR_PAD8 PWR_PAD9 PWR_PAD10 PWR_PAD11 PWR_PAD12 PWR_PAD13 PWR_PAD14 PWR_PAD15"/>
 <connect gate="G$1" pin="ILIM" pad="37"/>
 <connect gate="G$1" pin="INTVCC" pad="38"/>
 <connect gate="G$1" pin="ITH" pad="7"/>
