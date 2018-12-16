@@ -16969,6 +16969,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-4.68" y="1.27" size="1.778" layer="21">+</text>
 <smd name="POS" x="-9" y="-2.381" dx="8" dy="10" layer="1"/>
 <smd name="NEG" x="9" y="-2.381" dx="8" dy="10" layer="1"/>
+<smd name="POS1" x="-9" y="-2.381" dx="8" dy="10" layer="16" rot="R180"/>
+<smd name="NEG1" x="9" y="-2.381" dx="8" dy="10" layer="16" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -16999,8 +17001,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="" package="IO_DOUBLE">
 <connects>
-<connect gate="G$1" pin="NEG" pad="NEG NEG_1 NEG_2 NEG_3 NEG_4 NEG_5 NEG_6 NEG_7 NEG_8 NEG_9 NEG_10 NEG_11 NEG_12 NEG_13 NEG_14 NEG_15 NEG_16 NEG_17 NEG_18 NEG_19 NEG_20"/>
-<connect gate="G$1" pin="POS" pad="POS POS_1 POS_2 POS_3 POS_4 POS_5 POS_6 POS_7 POS_8 POS_9 POS_10 POS_11 POS_12 POS_13 POS_14 POS_15 POS_16 POS_17 POS_18 POS_19 POS_20" route="any"/>
+<connect gate="G$1" pin="NEG" pad="NEG NEG1 NEG_1 NEG_2 NEG_3 NEG_4 NEG_5 NEG_6 NEG_7 NEG_8 NEG_9 NEG_10 NEG_11 NEG_12 NEG_13 NEG_14 NEG_15 NEG_16 NEG_17 NEG_18 NEG_19 NEG_20"/>
+<connect gate="G$1" pin="POS" pad="POS POS1 POS_1 POS_2 POS_3 POS_4 POS_5 POS_6 POS_7 POS_8 POS_9 POS_10 POS_11 POS_12 POS_13 POS_14 POS_15 POS_16 POS_17 POS_18 POS_19 POS_20" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
