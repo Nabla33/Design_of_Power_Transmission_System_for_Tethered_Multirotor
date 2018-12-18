@@ -3244,7 +3244,7 @@ grid 15 mm, outline 8.4 x 18.3 mm</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="E5-5" urn="urn:adsk.eagle:package:23367/1" type="box" library_version="5">
+<package3d name="E5-5" urn="urn:adsk.eagle:package:23367/2" type="model" library_version="7">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 5 mm</description>
 <packageinstances>
@@ -3746,7 +3746,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="41.5798" y="59.5376" size="1.27" layer="21" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="33.0708" y="63.9826" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="COC" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/1" value="22uF" x="13.843" y="43.942" smashed="yes" rot="R180">
+<element name="COC" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/2" value="22uF" x="13.843" y="43.942" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.303" y="42.672" size="1.27" layer="21" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="13.843" y="43.942" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -3795,7 +3795,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="51.0794" y="22.8854" size="1.27" layer="21" ratio="10"/>
 <attribute name="VALUE" x="51.2826" y="22.5806" size="1.27" layer="27"/>
 </element>
-<element name="COC1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/1" value="22uF" x="13.843" y="37.846" smashed="yes" rot="R180">
+<element name="COC1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/2" value="22uF" x="13.843" y="37.846" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.303" y="36.576" size="1.27" layer="21" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="13.843" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -3828,7 +3828,6 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="G"/>
 <wire x1="48.5042" y1="53.56" x2="40.853" y2="53.56" width="0.4064" layer="1"/>
 <wire x1="48.5944" y1="53.4698" x2="48.5042" y2="53.56" width="0.254" layer="1"/>
-<wire x1="48.5944" y1="53.4698" x2="48.2731" y2="53.4698" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$1" pad="24"/>
@@ -4026,14 +4025,13 @@ design rules under a new name.</description>
 <contactref element="RFBB" pad="2"/>
 <contactref element="CS1" pad="1"/>
 <contactref element="CS2" pad="2"/>
-<wire x1="54.1444" y1="46.9698" x2="59.4818" y2="46.9698" width="0.3048" layer="1"/>
-<wire x1="59.4818" y1="46.9698" x2="59.5706" y2="47.0586" width="0.3048" layer="1"/>
 <wire x1="63.3984" y1="50.6628" x2="63.3984" y2="47.4066" width="1.016" layer="1"/>
-<wire x1="59.9694" y1="50.6628" x2="59.9694" y2="47.4574" width="1.016" layer="1"/>
-<wire x1="59.9694" y1="47.4574" x2="59.944" y2="47.432" width="1.016" layer="1"/>
+<wire x1="59.9694" y1="47.4574" x2="59.9694" y2="50.6628" width="1.016" layer="1"/>
+<wire x1="54.1444" y1="46.9698" x2="59.4818" y2="46.9698" width="0.3048" layer="1"/>
+<wire x1="59.4818" y1="46.9698" x2="59.944" y2="47.432" width="0.3048" layer="1"/>
+<wire x1="59.944" y1="47.432" x2="59.9694" y2="47.4574" width="0.3048" layer="1"/>
 <wire x1="59.944" y1="47.432" x2="63.373" y2="47.432" width="1.016" layer="1"/>
 <wire x1="63.373" y1="47.432" x2="63.3984" y2="47.4066" width="1.016" layer="1"/>
-<wire x1="59.5706" y1="47.0586" x2="59.944" y2="47.432" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="U$1" pad="30"/>
@@ -4698,14 +4696,12 @@ design rules under a new name.</description>
 <approved hash="21,19,cac1c8c3c8c3cac1"/>
 <approved hash="21,19,da8ad888d908db0a"/>
 <approved hash="21,19,b637b6b7b4b634b5"/>
-<approved hash="21,19,50e553655164d167"/>
 <approved hash="21,19,1d251f271f271d25"/>
-<approved hash="21,19,30fd317d337eb37f"/>
 <approved hash="21,19,9bbe99bc99bc9bbe"/>
 <approved hash="21,19,a0dfa2dda2dda0df"/>
-<approved hash="23,1,f8cb30b53162f91c"/>
 <approved hash="21,19,7ffc7dfe7dfe7ffc"/>
 <approved hash="21,19,7ffc7dfe7dfe7ffc"/>
+<approved hash="21,19,30fd317d337eb37f"/>
 </errors>
 </board>
 </drawing>

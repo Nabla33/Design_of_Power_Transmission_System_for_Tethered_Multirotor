@@ -142,7 +142,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IO_PAD" prefix="IO">
+<deviceset name="IO_PAD">
 <gates>
 <gate name="G$1" symbol="IO_DOUBLE" x="0" y="0"/>
 </gates>

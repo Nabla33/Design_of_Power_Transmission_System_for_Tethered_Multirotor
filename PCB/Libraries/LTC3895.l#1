@@ -235,7 +235,7 @@ Exposed Pad Variation AB &lt;br/&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTC3895_STEP_DOWN_DC-DC_CONVERTER" prefix="U">
+<deviceset name="LTC3895_STEP_DOWN_DC-DC_CONVERTER">
 <gates>
 <gate name="G$1" symbol="LTC3895" x="-25.4" y="-27.94"/>
 </gates>
