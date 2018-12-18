@@ -4696,12 +4696,14 @@ design rules under a new name.</description>
 <approved hash="21,19,cac1c8c3c8c3cac1"/>
 <approved hash="21,19,da8ad888d908db0a"/>
 <approved hash="21,19,b637b6b7b4b634b5"/>
+<approved hash="21,19,50e553655164d167"/>
 <approved hash="21,19,1d251f271f271d25"/>
+<approved hash="21,19,30fd317d337eb37f"/>
 <approved hash="21,19,9bbe99bc99bc9bbe"/>
 <approved hash="21,19,a0dfa2dda2dda0df"/>
+<approved hash="23,1,f8cb30b53162f91c"/>
 <approved hash="21,19,7ffc7dfe7dfe7ffc"/>
 <approved hash="21,19,7ffc7dfe7dfe7ffc"/>
-<approved hash="21,19,30fd317d337eb37f"/>
 </errors>
 </board>
 </drawing>
