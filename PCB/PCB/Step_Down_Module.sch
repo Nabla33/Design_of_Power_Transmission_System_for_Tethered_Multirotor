@@ -21598,7 +21598,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF"/>
 <part name="VIN_POS" library="IO_pad" deviceset="IO_PAD_SINGLE" device=""/>
 <part name="VIN_NEG" library="IO_pad" deviceset="IO_PAD_SINGLE" device=""/>
-<part name="VOUT_POS" library="IO_pad" deviceset="IO_PAD_SINGLE" device=""/>
 <part name="VOUT_NEG" library="IO_pad" deviceset="IO_PAD_SINGLE" device=""/>
 <part name="U$1" library="IO_pad" deviceset="CONN_VIA" device=""/>
 <part name="U$2" library="IO_pad" deviceset="CONN_VIA" device=""/>
@@ -21620,6 +21619,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="VOUT_POS" library="IO_pad" deviceset="IO_PAD_SINGLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21808,9 +21808,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="VIN_NEG" gate="G$1" x="93.98" y="111.76" smashed="yes">
 <attribute name="NAME" x="100.838" y="108.204" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="VOUT_POS" gate="G$1" x="109.22" y="111.76" smashed="yes">
-<attribute name="NAME" x="108.458" y="108.204" size="1.778" layer="95" rot="R90"/>
-</instance>
 <instance part="VOUT_NEG" gate="G$1" x="114.3" y="111.76" smashed="yes">
 <attribute name="NAME" x="121.158" y="108.204" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -21872,6 +21869,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="C14" gate="G$1" x="137.16" y="71.12" smashed="yes">
 <attribute name="NAME" x="143.256" y="73.279" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="139.319" y="72.644" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VOUT_POS" gate="G$1" x="109.22" y="111.76" smashed="yes">
+<attribute name="NAME" x="108.458" y="108.204" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -21961,7 +21961,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="VOUT_POS" gate="G$1" pin="IO"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="S+" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SENSE+"/>
 <pinref part="C9" gate="G$1" pin="2"/>
