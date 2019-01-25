@@ -362,6 +362,7 @@ Exposed Pad Variation AB &lt;br/&gt;</description>
 <pad name="PWR_PAD10" x="3.75" y="0" drill="0.6" diameter="1.25" shape="square" stop="no"/>
 <pad name="PWR_PAD11" x="3.75" y="1.25" drill="0.6" diameter="1.25" shape="square" stop="no"/>
 <pad name="PWR_PAD12" x="3.75" y="2.5" drill="0.6" diameter="1.25" shape="square" stop="no"/>
+<smd name="D1" x="1.874040625" y="1.24991875" dx="4.7" dy="3.75" layer="16" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -415,7 +416,7 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=1277
 <devices>
 <device name="" package="SOP_ADVANCE">
 <connects>
-<connect gate="G$1" pin="D" pad="D D_1 D_2 D_3 D_4 PWR_PAD1 PWR_PAD2 PWR_PAD3 PWR_PAD4 PWR_PAD5 PWR_PAD6 PWR_PAD7 PWR_PAD8 PWR_PAD9 PWR_PAD10 PWR_PAD11 PWR_PAD12"/>
+<connect gate="G$1" pin="D" pad="D D1 D_1 D_2 D_3 D_4 PWR_PAD1 PWR_PAD2 PWR_PAD3 PWR_PAD4 PWR_PAD5 PWR_PAD6 PWR_PAD7 PWR_PAD8 PWR_PAD9 PWR_PAD10 PWR_PAD11 PWR_PAD12"/>
 <connect gate="G$1" pin="G" pad="G"/>
 <connect gate="G$1" pin="S" pad="S_1 S_2 S_3"/>
 </connects>
@@ -14030,6 +14031,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP16R" package3d_urn="urn:adsk.eagle:package:27969/1"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP16R" package3d_urn="urn:adsk.eagle:package:27969/1"/>
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP16R" package3d_urn="urn:adsk.eagle:package:27969/1"/>
+<part name="C19" library="SparkFun-Capacitors" deviceset="CAP_SMD_1210" device="" value="10u"/>
+<part name="GND28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14302,6 +14305,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="146.05" y="67.31" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="148.59" y="64.77" size="1.778" layer="97"/>
 </instance>
+<instance part="C19" gate="G$1" x="121.92" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="120.396" y="75.819" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="120.396" y="80.899" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="GND28" gate="1" x="121.92" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="121.92" y="86.614" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14392,6 +14402,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP3" gate="G$1" pin="TP"/>
 <wire x1="139.7" y1="78.74" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
 <junction x="139.7" y="73.66"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="104.14" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
@@ -14673,6 +14684,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP1" gate="G$1" pin="TP"/>
 <wire x1="-38.1" y1="99.06" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-27.94" y="99.06"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="121.92" y1="83.82" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SS" class="0">
